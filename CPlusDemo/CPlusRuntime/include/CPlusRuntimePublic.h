@@ -179,7 +179,7 @@
 #error unsuport system
 #endif
 
-#endif /* CPDefine_h */
+#endif
 
 
 #if __GNUC__
@@ -206,14 +206,12 @@ typedef double float64_t;
 
 #pragma mark - base
 
-/********************************* CPemoryManage *********************************/
-typedef struct __CPMemoryManager {
-    uint64_t ptrCount;
-    uint64_t usedMemory;
-    void (* _Nullable zeroSizeErrorHandler)(struct __CPMemoryManager * _Nonnull manager, void * _Nonnull * _Nullable ptr);
-    void (* _Nullable oomHandler)(struct __CPMemoryManager * _Nonnull manager, size_t size);
-} CPMemoryManager_t;
-static CPMemoryManager_t CPMemoryManagerDefault = {};
+/********************************* CPMemoryManage *********************************/
+
+uint64_t CPMemoryManagerGetUsedMemorySize(void);
+uint64_t CPMemoryManagerGetPtrCount(void);
+
+
 
 
 #if CPMemoryHeaderAligent64
@@ -282,7 +280,7 @@ typedef struct __CPTypeBaseInfo {
     uint32_t contentHasPadding: 1;
     uint32_t customInfoSize: 6;// * CPContentAligentBlock
     size_t contentBaseSize;// * 1
-    char * _Nonnull name;
+    char const * _Nonnull name;
     void const * _Nullable superType;
     void const * _Nullable alloctor;//CPAlloctor_s *
     void (* _Nullable deinit)(void const * _Nonnull object);//有子类向父类递归调用
@@ -316,7 +314,7 @@ typedef struct {
 
 #pragma pack(pop)
 
-
+static char const * _Nonnull const CPTypeNameType = "Type";
 static CPTypeLayout_s const CPTypeStorage_Type = {
 #if CPMemoryHeaderAligent64
     .info = {
@@ -348,7 +346,7 @@ static CPTypeLayout_s const CPTypeStorage_Type = {
             .contentHasPadding = 0,
             .customInfoSize = 0,
             .contentBaseSize = sizeof(CPType_s),
-            .name = "Type",
+            .name = CPTypeNameType,
             .superType = NULL,
             .alloctor = NULL,
             .deinit = NULL,
@@ -790,12 +788,8 @@ static inline _Bool CPCASSetActiveInfo(CPInfoStorage_s * _Nonnull header, CPActi
 #endif
 }
 
-
-/********************************* COAutoreleasePool *********************************/
-
-#pragma mark - COAutoreleasePool
+/********************************* MRC *********************************/
 void CPAutoreleasePool(void(^_Nonnull block)(void));
-
 CPObject _Nullable CPRetain(void const * _Nullable obj);
 void CPRelease(void const * _Nullable obj);
 void CPAutorelease(void const * _Nullable obj);
@@ -804,7 +798,6 @@ void CPAutorelease(void const * _Nullable obj);
 /********************************* init module *********************************/
 
 #pragma mark - init module
-
 __attribute__((constructor(201)))
 void CPlusModuleInit(void);
 

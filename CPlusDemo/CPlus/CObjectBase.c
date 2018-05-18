@@ -117,9 +117,9 @@ static inline void * _Nonnull CPObjectGetRealAddress(CPObject _Nonnull obj) {
 #endif
 }
 
-CPAllocedMemory_s CPBaseAlloc(struct __CPAlloctor const * _Nonnull alloctor, size_t size) {
+CPAllocedMemory_s const CPBaseAlloc(struct __CPAlloctor const * _Nonnull alloctor, size_t size) {
     if (size == 0) {
-        abort();
+        abort(); 
     }
     void * ptr = CBaseAlloc(size);
     if (NULL == ptr) {

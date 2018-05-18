@@ -1,0 +1,16 @@
+PODS:
+  - CPlusRuntime (0.9.0)
+
+DEPENDENCIES:
+  - CPlusRuntime (from `../../CPlusRuntime`)
+
+EXTERNAL SOURCES:
+  CPlusRuntime:
+    :path: "../../CPlusRuntime"
+
+SPEC CHECKSUMS:
+  CPlusRuntime: d1d4733383fd6a2d23287c992f89691382e5d038
+
+PODFILE CHECKSUM: f698216b645d52688b10c4dd43f5a2add9f20a3e
+
+COCOAPODS: 1.5.2

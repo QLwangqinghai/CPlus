@@ -1,0 +1,17 @@
+platform :osx, '10.11'
+#open source
+source 'https://coding.net/u/dev_vector/p/Spec.git’
+
+target ‘CPlusDemo’ do
+  use_frameworks!
+
+  pod ‘CPlusRuntime’, :path => '../../CPlusRuntime'
+
+end
+
+target ‘CPlus’ do
+  use_frameworks!
+
+  pod ‘CPlusRuntime’, :path => '../../CPlusRuntime'
+
+end

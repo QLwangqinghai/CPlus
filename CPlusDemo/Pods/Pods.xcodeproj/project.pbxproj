@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05358E06EF3C5512C2A901E63F30CF1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
+		1A23D8FEFEB14E922E98B2676EDE4200 /* CPlusRuntime.c in Sources */ = {isa = PBXBuildFile; fileRef = AB91925848DB7BA81A83CE84188AF376 /* CPlusRuntime.c */; };
+		204F396E5760B134085397EAB5DC615E /* CPlusRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = A62E02AB6453BB7ABCC332CA4D7A2615 /* CPlusRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C5D22FA877241C50E3AF9D33DD6CE8 /* CPlusRuntimePublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 608E78EF7FD9B409CEF71CB0AD7EE789 /* CPlusRuntimePublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48CF93169BE71AF88B53137ABC05B271 /* Pods-CPlusDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A47446C4F4599A3325331C7473871C /* Pods-CPlusDemo-dummy.m */; };
+		4C8B2D0A79F9AABA81EADF83E408385C /* CPlusRuntimeInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B3E67E3A4E8AE8F2B42F427405CBCF /* CPlusRuntimeInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50C967FAC1272DB32962D7BD02911A0C /* Pods-CPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D04F11136E646106F9C797C00BD5CF /* Pods-CPlus-dummy.m */; };
+		5E1DDCF2351C53C5D65F9E5B025A51BA /* CPlusRuntime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD712C521CE2D3DC3963F878A18D4444 /* CPlusRuntime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707E6B2303B7D3AD91395C028246A2CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
+		BA2B8094108F0DE664F68BC85359D6B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
+		C0302173299A8C61169547E12EFF4710 /* Pods-CPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD489ADFFF90DD6200EC058E86F5F0C /* Pods-CPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C30806128EB7C5CC996C644EC8310C07 /* Pods-CPlusDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F83A8C3FF3B0E652623BBEFF88406A6 /* Pods-CPlusDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C34893206801CC96B4C3F21C3EAF71EC /* CPlusRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45FCC18688A11E262790E64F03BDA8C /* CPlusRuntime-dummy.m */; };
+		C42E1E3C71BE33DE46C7BDDE86F2B502 /* CPlusRuntimePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D25459BE405EF18D110A12C22609400 /* CPlusRuntimePrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED109CE4DF99F6EA331B3DC8DFE43AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B177D4C43FDE28652439C79C2DF7973;
+			remoteInfo = CPlusRuntime;
+		};
+		F7C93BB6755E02101A1D9CBD4E6CE43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B177D4C43FDE28652439C79C2DF7973;
+			remoteInfo = CPlusRuntime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C477C212B114719086617CA4DD4EB1 /* CPlusRuntime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPlusRuntime.modulemap; sourceTree = "<group>"; };
+		12B90A6D2D387BCEAEFEB12FC85C2D33 /* Pods_CPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPlus.framework; path = "Pods-CPlus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D25459BE405EF18D110A12C22609400 /* CPlusRuntimePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CPlusRuntimePrivate.h; sourceTree = "<group>"; };
+		1FD489ADFFF90DD6200EC058E86F5F0C /* Pods-CPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPlus-umbrella.h"; sourceTree = "<group>"; };
+		22D04F11136E646106F9C797C00BD5CF /* Pods-CPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPlus-dummy.m"; sourceTree = "<group>"; };
+		2F9EC3741D0AE0A7021C57240EDAB0B1 /* Pods-CPlusDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPlusDemo-frameworks.sh"; sourceTree = "<group>"; };
+		3A1F9E25E70A61FAC8AC5088DEF4037A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CDC4FC6FFD592785A97DC9553A24F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4591DECB61A298B601BDEF38C0F97A91 /* Pods-CPlus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPlus-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B86C02E184CEAF4E8B9128ECDB82EA1 /* Pods-CPlusDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPlusDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5308179943AC370A1775BFAC7D9BCEF9 /* Pods-CPlus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPlus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		608E78EF7FD9B409CEF71CB0AD7EE789 /* CPlusRuntimePublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CPlusRuntimePublic.h; sourceTree = "<group>"; };
+		6413810010ACD3F60AB8307A6DD2EA8C /* Pods-CPlus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPlus-resources.sh"; sourceTree = "<group>"; };
+		664E05A9435AEA872C28E805730C5B86 /* Pods-CPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6248FA8912E72C8DF19EBCA0E0F262 /* Pods-CPlusDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPlusDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		92A47446C4F4599A3325331C7473871C /* Pods-CPlusDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPlusDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94494CB7E40F6663C74521089D05DE47 /* CPlusRuntime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPlusRuntime-prefix.pch"; sourceTree = "<group>"; };
+		94D7B589F77290CC41D307EDB629AADF /* CPlusRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CPlusRuntime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A897701AFC48F5E3D1F0194373112A /* Pods-CPlusDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPlusDemo-resources.sh"; sourceTree = "<group>"; };
+		9F83A8C3FF3B0E652623BBEFF88406A6 /* Pods-CPlusDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPlusDemo-umbrella.h"; sourceTree = "<group>"; };
+		9F9A08455C07861A1FA1252D75CBBF51 /* CPlusRuntime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPlusRuntime.xcconfig; sourceTree = "<group>"; };
+		A2D6881852488AC59E82083E977C08AB /* Pods-CPlusDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPlusDemo.modulemap"; sourceTree = "<group>"; };
+		A3BE466820C013C57FC81AEBBA737649 /* Pods-CPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPlus.release.xcconfig"; sourceTree = "<group>"; };
+		A45FCC18688A11E262790E64F03BDA8C /* CPlusRuntime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPlusRuntime-dummy.m"; sourceTree = "<group>"; };
+		A62E02AB6453BB7ABCC332CA4D7A2615 /* CPlusRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPlusRuntime.h; path = CPlusRuntime/CPlusRuntime.h; sourceTree = "<group>"; };
+		A7B3E67E3A4E8AE8F2B42F427405CBCF /* CPlusRuntimeInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CPlusRuntimeInternal.h; sourceTree = "<group>"; };
+		A8255A3B790E3379B39DF0EA15AC6F1C /* CPlusRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPlusRuntime.framework; path = CPlusRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB91925848DB7BA81A83CE84188AF376 /* CPlusRuntime.c */ = {isa = PBXFileReference; includeInIndex = 1; name = CPlusRuntime.c; path = CPlusRuntime/CPlusRuntime.c; sourceTree = "<group>"; };
+		AD712C521CE2D3DC3963F878A18D4444 /* CPlusRuntime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPlusRuntime-umbrella.h"; sourceTree = "<group>"; };
+		C173F7F0F282EFB13EA2AAC3F1A2E3FD /* Pods-CPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPlus.modulemap"; sourceTree = "<group>"; };
+		CE887E379AF2B8EA2783277FF9AEDE9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		DFD6083C7E6D34DC0174A15394F9A03A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF45E9D51EE3BF9EA6C34411BFEF449 /* Pods-CPlusDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPlusDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7E0A53B57DFCA50952E9D6CC7D0F465 /* Pods_CPlusDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPlusDemo.framework; path = "Pods-CPlusDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF0F33838AF24BA852CFF152B22FD34 /* Pods-CPlusDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPlusDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29844C87BF2C55406E9F8C8FA7F1CFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05358E06EF3C5512C2A901E63F30CF1E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389A8AE8BBE2CC6686C9C557C65B22B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E6B2303B7D3AD91395C028246A2CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44DFB5058B5388C58A1DAF67B6F0406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B8094108F0DE664F68BC85359D6B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA6A28DE8A5DAB331D4C0D9289D5767 /* CPlusRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				AB91925848DB7BA81A83CE84188AF376 /* CPlusRuntime.c */,
+				A62E02AB6453BB7ABCC332CA4D7A2615 /* CPlusRuntime.h */,
+				CE604B04166729ECB585292907D958BF /* include */,
+				D1124968E73ED5A7CD5AFEC995C65E38 /* internal */,
+				67C9EE956B6BB050F9DF41BE5A86745F /* Pod */,
+				72B08B9141CAD6B80BE353E234DFC910 /* private */,
+				DA652312C4E6B7E2E2FC2E887FC13B4F /* Support Files */,
+			);
+			name = CPlusRuntime;
+			path = ../../../CPlusRuntime;
+			sourceTree = "<group>";
+		};
+		213570D4C4F425E66C712F5147987D66 /* Pods-CPlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6083C7E6D34DC0174A15394F9A03A /* Info.plist */,
+				A2D6881852488AC59E82083E977C08AB /* Pods-CPlusDemo.modulemap */,
+				EAF45E9D51EE3BF9EA6C34411BFEF449 /* Pods-CPlusDemo-acknowledgements.markdown */,
+				7E6248FA8912E72C8DF19EBCA0E0F262 /* Pods-CPlusDemo-acknowledgements.plist */,
+				92A47446C4F4599A3325331C7473871C /* Pods-CPlusDemo-dummy.m */,
+				2F9EC3741D0AE0A7021C57240EDAB0B1 /* Pods-CPlusDemo-frameworks.sh */,
+				97A897701AFC48F5E3D1F0194373112A /* Pods-CPlusDemo-resources.sh */,
+				9F83A8C3FF3B0E652623BBEFF88406A6 /* Pods-CPlusDemo-umbrella.h */,
+				4B86C02E184CEAF4E8B9128ECDB82EA1 /* Pods-CPlusDemo.debug.xcconfig */,
+				FAF0F33838AF24BA852CFF152B22FD34 /* Pods-CPlusDemo.release.xcconfig */,
+			);
+			name = "Pods-CPlusDemo";
+			path = "Target Support Files/Pods-CPlusDemo";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7AC8429882A95AA0810A9DCDED54FF /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60008F0D582EC72DCB98B529A0078D3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8255D7D47CDDB8D2ECFF3E14092CB /* Pods-CPlus */,
+				213570D4C4F425E66C712F5147987D66 /* Pods-CPlusDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		638A270D5374D43E66B7937522E63F5D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6A28DE8A5DAB331D4C0D9289D5767 /* CPlusRuntime */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		67C9EE956B6BB050F9DF41BE5A86745F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94D7B589F77290CC41D307EDB629AADF /* CPlusRuntime.podspec */,
+				CE887E379AF2B8EA2783277FF9AEDE9B /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		72B08B9141CAD6B80BE353E234DFC910 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				1D25459BE405EF18D110A12C22609400 /* CPlusRuntimePrivate.h */,
+			);
+			name = private;
+			path = CPlusRuntime/private;
+			sourceTree = "<group>";
+		};
+		783DB83354271F1E68106D24D248E716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8255A3B790E3379B39DF0EA15AC6F1C /* CPlusRuntime.framework */,
+				12B90A6D2D387BCEAEFEB12FC85C2D33 /* Pods_CPlus.framework */,
+				F7E0A53B57DFCA50952E9D6CC7D0F465 /* Pods_CPlusDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				638A270D5374D43E66B7937522E63F5D /* Development Pods */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				783DB83354271F1E68106D24D248E716 /* Products */,
+				60008F0D582EC72DCB98B529A0078D3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC8255D7D47CDDB8D2ECFF3E14092CB /* Pods-CPlus */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F9E25E70A61FAC8AC5088DEF4037A /* Info.plist */,
+				C173F7F0F282EFB13EA2AAC3F1A2E3FD /* Pods-CPlus.modulemap */,
+				5308179943AC370A1775BFAC7D9BCEF9 /* Pods-CPlus-acknowledgements.markdown */,
+				4591DECB61A298B601BDEF38C0F97A91 /* Pods-CPlus-acknowledgements.plist */,
+				22D04F11136E646106F9C797C00BD5CF /* Pods-CPlus-dummy.m */,
+				6413810010ACD3F60AB8307A6DD2EA8C /* Pods-CPlus-resources.sh */,
+				1FD489ADFFF90DD6200EC058E86F5F0C /* Pods-CPlus-umbrella.h */,
+				664E05A9435AEA872C28E805730C5B86 /* Pods-CPlus.debug.xcconfig */,
+				A3BE466820C013C57FC81AEBBA737649 /* Pods-CPlus.release.xcconfig */,
+			);
+			name = "Pods-CPlus";
+			path = "Target Support Files/Pods-CPlus";
+			sourceTree = "<group>";
+		};
+		CE604B04166729ECB585292907D958BF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				608E78EF7FD9B409CEF71CB0AD7EE789 /* CPlusRuntimePublic.h */,
+			);
+			name = include;
+			path = CPlusRuntime/include;
+			sourceTree = "<group>";
+		};
+		D1124968E73ED5A7CD5AFEC995C65E38 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3E67E3A4E8AE8F2B42F427405CBCF /* CPlusRuntimeInternal.h */,
+			);
+			name = internal;
+			path = CPlusRuntime/internal;
+			sourceTree = "<group>";
+		};
+		DA652312C4E6B7E2E2FC2E887FC13B4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C477C212B114719086617CA4DD4EB1 /* CPlusRuntime.modulemap */,
+				9F9A08455C07861A1FA1252D75CBBF51 /* CPlusRuntime.xcconfig */,
+				A45FCC18688A11E262790E64F03BDA8C /* CPlusRuntime-dummy.m */,
+				94494CB7E40F6663C74521089D05DE47 /* CPlusRuntime-prefix.pch */,
+				AD712C521CE2D3DC3963F878A18D4444 /* CPlusRuntime-umbrella.h */,
+				40CDC4FC6FFD592785A97DC9553A24F1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../CPlus/CPlusDemo/Pods/Target Support Files/CPlusRuntime";
+			sourceTree = "<group>";
+		};
+		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76C31E288E73D68324EA3B62F2E481DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1DDCF2351C53C5D65F9E5B025A51BA /* CPlusRuntime-umbrella.h in Headers */,
+				204F396E5760B134085397EAB5DC615E /* CPlusRuntime.h in Headers */,
+				4C8B2D0A79F9AABA81EADF83E408385C /* CPlusRuntimeInternal.h in Headers */,
+				C42E1E3C71BE33DE46C7BDDE86F2B502 /* CPlusRuntimePrivate.h in Headers */,
+				27C5D22FA877241C50E3AF9D33DD6CE8 /* CPlusRuntimePublic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874B4A77723D4D983FC362997C4D1D63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30806128EB7C5CC996C644EC8310C07 /* Pods-CPlusDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18B44F4540BBF6C243061FF0AE391AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0302173299A8C61169547E12EFF4710 /* Pods-CPlus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		895137E5DD4C29F48AEF474B77B3615E /* Pods-CPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF01C13D0BCB9FDABB697353A4E8143D /* Build configuration list for PBXNativeTarget "Pods-CPlus" */;
+			buildPhases = (
+				E039281D00105ECB09D28FF17EB44933 /* Sources */,
+				F44DFB5058B5388C58A1DAF67B6F0406 /* Frameworks */,
+				D18B44F4540BBF6C243061FF0AE391AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23D3D1D73F701944734E979EC9EFF1C /* PBXTargetDependency */,
+			);
+			name = "Pods-CPlus";
+			productName = "Pods-CPlus";
+			productReference = 12B90A6D2D387BCEAEFEB12FC85C2D33 /* Pods_CPlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B177D4C43FDE28652439C79C2DF7973 /* CPlusRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C44AEF1D8D6ED53A0A4ABD83635EB65 /* Build configuration list for PBXNativeTarget "CPlusRuntime" */;
+			buildPhases = (
+				F1C99947EE9C9D62B23FBEF5F091F3CF /* Sources */,
+				389A8AE8BBE2CC6686C9C557C65B22B5 /* Frameworks */,
+				76C31E288E73D68324EA3B62F2E481DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPlusRuntime;
+			productName = CPlusRuntime;
+			productReference = A8255A3B790E3379B39DF0EA15AC6F1C /* CPlusRuntime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA95BE5484D617453B85DA4BA80F08A8 /* Pods-CPlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7F9463593B3EA98473B346C1DC48C /* Build configuration list for PBXNativeTarget "Pods-CPlusDemo" */;
+			buildPhases = (
+				80DACE3A10610E314276CB241B4C0AE0 /* Sources */,
+				29844C87BF2C55406E9F8C8FA7F1CFF8 /* Frameworks */,
+				874B4A77723D4D983FC362997C4D1D63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F7176C3D06B0D4B98246C47088C2A15 /* PBXTargetDependency */,
+			);
+			name = "Pods-CPlusDemo";
+			productName = "Pods-CPlusDemo";
+			productReference = F7E0A53B57DFCA50952E9D6CC7D0F465 /* Pods_CPlusDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 783DB83354271F1E68106D24D248E716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B177D4C43FDE28652439C79C2DF7973 /* CPlusRuntime */,
+				895137E5DD4C29F48AEF474B77B3615E /* Pods-CPlus */,
+				BA95BE5484D617453B85DA4BA80F08A8 /* Pods-CPlusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DACE3A10610E314276CB241B4C0AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CF93169BE71AF88B53137ABC05B271 /* Pods-CPlusDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E039281D00105ECB09D28FF17EB44933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C967FAC1272DB32962D7BD02911A0C /* Pods-CPlus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C99947EE9C9D62B23FBEF5F091F3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34893206801CC96B4C3F21C3EAF71EC /* CPlusRuntime-dummy.m in Sources */,
+				1A23D8FEFEB14E922E98B2676EDE4200 /* CPlusRuntime.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F7176C3D06B0D4B98246C47088C2A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CPlusRuntime;
+			target = 9B177D4C43FDE28652439C79C2DF7973 /* CPlusRuntime */;
+			targetProxy = 8ED109CE4DF99F6EA331B3DC8DFE43AF /* PBXContainerItemProxy */;
+		};
+		B23D3D1D73F701944734E979EC9EFF1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CPlusRuntime;
+			target = 9B177D4C43FDE28652439C79C2DF7973 /* CPlusRuntime */;
+			targetProxy = F7C93BB6755E02101A1D9CBD4E6CE43F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F85427E9D50BA183279A016C681FF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9A08455C07861A1FA1252D75CBBF51 /* CPlusRuntime.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CPlusRuntime/CPlusRuntime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPlusRuntime/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/CPlusRuntime/CPlusRuntime.modulemap";
+				PRODUCT_MODULE_NAME = CPlusRuntime;
+				PRODUCT_NAME = CPlusRuntime;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2865D6CA54276FC287AEEA5628D514EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		592F27475E02E69BE0B54098C5FFBA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3BE466820C013C57FC81AEBBA737649 /* Pods-CPlus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPlus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPlus/Pods-CPlus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B65D7F75A659E954FF380D0A1B9D82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B86C02E184CEAF4E8B9128ECDB82EA1 /* Pods-CPlusDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPlusDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPlusDemo/Pods-CPlusDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1AD92DADD5C046315C4F3801E2A61FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664E05A9435AEA872C28E805730C5B86 /* Pods-CPlus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPlus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPlus/Pods-CPlus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBA4D58A6B61B2126A01EB13DAAD22DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF0F33838AF24BA852CFF152B22FD34 /* Pods-CPlusDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPlusDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPlusDemo/Pods-CPlusDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE5BFE8D01810C31013EFB6520C87162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5091D29C85826B72394682BE02E34F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9A08455C07861A1FA1252D75CBBF51 /* CPlusRuntime.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CPlusRuntime/CPlusRuntime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPlusRuntime/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/CPlusRuntime/CPlusRuntime.modulemap";
+				PRODUCT_MODULE_NAME = CPlusRuntime;
+				PRODUCT_NAME = CPlusRuntime;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C44AEF1D8D6ED53A0A4ABD83635EB65 /* Build configuration list for PBXNativeTarget "CPlusRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F85427E9D50BA183279A016C681FF56 /* Debug */,
+				C5091D29C85826B72394682BE02E34F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5BFE8D01810C31013EFB6520C87162 /* Debug */,
+				2865D6CA54276FC287AEEA5628D514EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7F9463593B3EA98473B346C1DC48C /* Build configuration list for PBXNativeTarget "Pods-CPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B65D7F75A659E954FF380D0A1B9D82C /* Debug */,
+				BBA4D58A6B61B2126A01EB13DAAD22DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF01C13D0BCB9FDABB697353A4E8143D /* Build configuration list for PBXNativeTarget "Pods-CPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AD92DADD5C046315C4F3801E2A61FC /* Debug */,
+				592F27475E02E69BE0B54098C5FFBA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

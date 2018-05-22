@@ -19,10 +19,30 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         
 //        CPlus.
+        let ptr = CPMemoryLoggerAllocInit(nil, nil) { (logger, item) in
+            print("log action: \(item.pointee.action), code: \(item.pointee.code), type: \(item.pointee.type.pointee.base.name)")
+        }
+        var key: UInt32 = 0
+        let result = CPAlloctorDefaultAddLogger(ptr, &key)
+        print("result: \(result)")
+        
         
         
     }
 
+    func tt() {
+        
+        let ptr = CPMemoryLoggerAllocInit(nil, nil) { (logger, item) in
+            print("log action: \(item.pointee.action), code: \(item.pointee.code), type: \(item.pointee.type.pointee.base.name)")
+        }
+        var key: UInt32 = 0
+        let result = CPAlloctorDefaultAddLogger(ptr, &key)
+        print("result: \(result)")
+        CPAlloctorDefault
+        
+    }
+    
+    
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
